@@ -58,7 +58,7 @@ You can run it like this:
 ### Linking and contexts
 
 Cactus makes it easy to relatively link to pages and static assets inside your project by using the template tags
-{% static %} and {% url %}. For example if you are at page `/blog/2011/Jan/my-article.html` and would like to link to
+<static> and {% url %}. For example if you are at page `/blog/2011/Jan/my-article.html` and would like to link to
 `/contact.html` you would write the following:
 
     <a href="{% url '/contact.html' %}">Contact</a>
